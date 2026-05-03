@@ -91,10 +91,10 @@
 
         FUNCTION {
             bindings = <
-&kp EQUAL       &kp PLUS         &kp MINUS             &kp ASTERISK           &kp SLASH                               &kp F1   &kp F2                  &kp F3                  &kp F4   &kp F5
-&kp LEFT_BRACE  &kp RIGHT_BRACE  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp LEFT_BRACKET  &kp RIGHT_BRACKET       &none    &kp F11                 &kp F12                 &kp F10  &kp F9  &kp F6
-&kp UNDERSCORE  &kp BACKSLASH    &kp PIPE              &kp SQT                &kp DOUBLE_QUOTES &kp GRAVE               &trans   &kp LC(LA(LEFT_ARROW))  &kp LC(LA(RIGHT_ARROW))  &trans   &trans  &kp F7
-&kp TILDE       &kp COLON        &kp SEMICOLON         &trans                 &trans            &trans                  &trans   &trans                                      &kp F8
+&kp UNDERSCORE   &kp COLON        &kp MINUS      &kp DOUBLE_QUOTES      &kp SLASH                               &kp F1   &kp F2                  &kp F3                  &kp F4   &kp F5
+&kp RIGHT_BRACE  &kp PIPE         &kp ASTERISK   &kp LEFT_PARENTHESIS   &kp RIGHT_BRACKET  &kp BACKSLASH          &none    &kp F11                 &kp F12                 &kp F10  &kp F9  &kp F6
+&kp LS(INT_RO)   &kp INT_RO       &kp LS(INT3)   &kp LS(NUMBER_7)       &kp LS(NUMBER_2)  &kp LEFT_BRACE         &trans   &kp LC(LA(LEFT_ARROW))  &kp LC(LA(RIGHT_ARROW))  &trans   &trans  &kp F7
+&kp TILDE        &kp SQT          &kp SEMICOLON  &trans                 &trans            &trans                 &trans   &trans                                      &kp F8
             >;
         };
 
